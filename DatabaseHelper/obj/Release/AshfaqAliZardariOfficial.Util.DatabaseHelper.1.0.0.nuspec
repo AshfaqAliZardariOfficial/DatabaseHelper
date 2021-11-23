@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AshfaqAliZardariOfficial.Util.DatabaseHelper</id>
+    <version>1.0.0</version>
+    <authors>Ashfaq Ali Zardari</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>A C# database helper library to connect with database server and perform actions insert, update, delete, select data and select multiple data from database.</description>
+    <releaseNotes>Release v1.0.0
+ - Connect with MS Sql Database Server.
+ - Connect with MySql Database Server.
+ - Insert data.
+ - Update data.
+ - Delete data.
+ - Select data.
+ - Select multiple data.</releaseNotes>
+    <copyright>Ashfaq Ali Zardari</copyright>
+    <tags>Database, Server, Helper, Insert, Update, Delete, Select, Data, SQL Server, MS SQL Server, Multiple, Data, Ashfaq Ali Zardari, Ashfaq Ali Zardari Official</tags>
+    <repository url="https://github.com/AshfaqAliZardariOfficial/DatabaseHelper" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="MySql.Data" version="8.0.27" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\user\AshfaqAliZardariOfficial\DatabaseHelper\DatabaseHelper\bin\Release\netstandard2.1\DatabaseHelper.dll" target="lib\netstandard2.1\DatabaseHelper.dll" />
+  </files>
+</package>
