@@ -1,0 +1,10 @@
+C:\Users\user\AshfaqAliZardariOfficial\DatabaseHelper\DatabaseHelper\bin\Release\netstandard2.1\DatabaseHelper.deps.json
+C:\Users\user\AshfaqAliZardariOfficial\DatabaseHelper\DatabaseHelper\bin\Release\netstandard2.1\DatabaseHelper.dll
+C:\Users\user\AshfaqAliZardariOfficial\DatabaseHelper\DatabaseHelper\bin\Release\netstandard2.1\DatabaseHelper.pdb
+C:\Users\user\AshfaqAliZardariOfficial\DatabaseHelper\DatabaseHelper\obj\Release\netstandard2.1\DatabaseHelper.csproj.AssemblyReference.cache
+C:\Users\user\AshfaqAliZardariOfficial\DatabaseHelper\DatabaseHelper\obj\Release\netstandard2.1\DatabaseHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\AshfaqAliZardariOfficial\DatabaseHelper\DatabaseHelper\obj\Release\netstandard2.1\DatabaseHelper.AssemblyInfoInputs.cache
+C:\Users\user\AshfaqAliZardariOfficial\DatabaseHelper\DatabaseHelper\obj\Release\netstandard2.1\DatabaseHelper.AssemblyInfo.cs
+C:\Users\user\AshfaqAliZardariOfficial\DatabaseHelper\DatabaseHelper\obj\Release\netstandard2.1\DatabaseHelper.csproj.CoreCompileInputs.cache
+C:\Users\user\AshfaqAliZardariOfficial\DatabaseHelper\DatabaseHelper\obj\Release\netstandard2.1\DatabaseHelper.dll
+C:\Users\user\AshfaqAliZardariOfficial\DatabaseHelper\DatabaseHelper\obj\Release\netstandard2.1\DatabaseHelper.pdb
