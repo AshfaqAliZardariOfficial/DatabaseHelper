@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DatabaseHelper</name>
+    </assembly>
+    <members>
+        <member name="T:DatabaseHelper.Connect">
+            <summary>
+            Database Helper Connect instance.
+            </summary>
+        </member>
+        <member name="F:DatabaseHelper.Connect.Server">
+            <summary>
+            Supported database servers.
+            </summary>
+        </member>
+        <member name="P:DatabaseHelper.Connect.ConnectionString">
+            <summary>
+            Database server connection string.
+            </summary>
+        </member>
+        <member name="T:DatabaseHelper.Connect.DB_SERVERS">
+            <summary>
+            Database Servers object.
+            </summary>
+        </member>
+        <member name="F:DatabaseHelper.Connect.DB_SERVERS.MS_SQL_SERVER">
+            <summary>
+            Microsoft Sql Server.
+            </summary>
+        </member>
+        <member name="F:DatabaseHelper.Connect.DB_SERVERS.MYSQL_SERVER">
+            <summary>
+            MySql Server.
+            </summary>
+        </member>
+        <member name="M:DatabaseHelper.Connect.#ctor(DatabaseHelper.Connect.DB_SERVERS,System.String)">
+            <summary>
+            Database Helper constructor to connect with the database server.
+            </summary>
+            <param name="server">Supported Database Server</param>
+            <param name="connectionString">Database Server Connection String</param>
+        </member>
+        <member name="M:DatabaseHelper.Connect.InsertOrUpdateOrDeleteData(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Boolean,System.Int32)">
+            <summary>
+            This method can be used for insert, update and delete.
+            It will return true, if query successful executed otherwise false.
+            </summary>
+            <param name="query">String query or procedure name</param>
+            <param name="parameters">IDictionary parameters</param>
+            <param name="isStoreProcedure">true, if query is store procedure, by default is false.</param>
+            <param name="timeout">Command timeout, by default is 30 seconds.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DatabaseHelper.Connect.GetData(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Boolean,System.Int32)">
+            <summary>
+            This method can be used for select data from database.
+            It will return DataTable object, if query successful executed otherwise null.
+            </summary>
+            <param name="query">String query or procedure name</param>
+            <param name="parameters">IDictionary parameters</param>
+            <param name="isStoreProcedure">true, if query is store procedure, by default is false.</param>
+            <param name="timeout">Command timeout, by default is 30 seconds.</param>
+            <returns></returns>
+        </member>
+        <member name="M:DatabaseHelper.Connect.GetMultipleData(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Boolean,System.Int32)">
+            <summary>
+            This method can be used for select multiple(like two select queries) data from database.
+            It will return DataSet object, if query successful executed otherwise null.
+            Suggestion: Use transaction if both query select data is required!
+            </summary>
+            <param name="query">String query or procedure name</param>
+            <param name="parameters">IDictionary parameters</param>
+            <param name="isStoreProcedure">true, if query is store procedure, by default is false.</param>
+            <param name="timeout">Command timeout, by default is 30 seconds.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
